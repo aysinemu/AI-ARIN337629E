@@ -30,7 +30,6 @@ import numpy as np
 import pandas as pd
 import torchvision.transforms as transforms
 
-# LOAD TENSORFLOW SECOND
 import tensorflow as tf
 gpus = tf.config.list_physical_devices('GPU')
 if gpus:

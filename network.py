@@ -450,7 +450,6 @@ class ImprovedNetwork(nn.Module):
                     # Standard Kaiming Normalization
                     nn.init.kaiming_normal_(m.weight, mode='fan_out', nonlinearity='relu')
                     
-                    # 🚨 PERFORMANCE TRICK: Shrink initial variance to prevent loss explosions.
                     # This allows higher initial learning rates without instability.
                     m.weight.data *= 0.1 
                     

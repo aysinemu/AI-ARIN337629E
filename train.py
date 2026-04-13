@@ -44,7 +44,7 @@ from pathlib import Path
 from tqdm import tqdm
 from torch.autograd import Variable
 
-from network import ImprovedNetwork, VGGFeatureExtractor, icnr_init  ### [ANTIGRAVITY MODIFIED]
+from network import ImprovedNetwork, VGGFeatureExtractor, icnr_init  
 from dataset import create_dataloaders
 from utils import (
     setup_logging, padding, levenshtein, get_char_weights,
@@ -141,7 +141,6 @@ class OCRModule:
             import tensorflow as tf
             tf.get_logger().setLevel('ERROR')
             
-            # CRITICAL: Prevent TF from grabbing all VRAM so PyTorch can run!
             gpus = tf.config.list_physical_devices('GPU')
             if gpus:
                 try:

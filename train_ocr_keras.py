@@ -25,7 +25,6 @@ import sys
 import random
 
 
-# IMPORT TORCH BEFORE TENSORFLOW TO PREVENT CUDA SYMBOL CONFLICTS
 import torch
 
 
