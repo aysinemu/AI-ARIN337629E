@@ -1,0 +1,23 @@
+# OCR-SR Pipeline Requirements
+# Generated based on the current stable environment
+
+# Core Deep Learning
+torch==2.10.0
+torchvision==0.25.0
+tensorflow==2.20.0
+
+# Image Processing
+opencv-python==4.11.0.86
+albumentations==2.0.8
+scikit-image==0.25.2
+Pillow>=9.0.0
+
+# Data & Visualization
+pandas==2.3.3
+matplotlib==3.10.7
+numpy>=1.20.0
+tqdm==4.67.1
+
+# Utilities
+pathlib
+argparse
