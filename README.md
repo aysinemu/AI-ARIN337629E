@@ -1,7 +1,6 @@
 # AI-ARIN337629E — License Plate Super-Resolution with OCR-Guided Training
 
 > **Semantic-Guided Super-Resolution for License Plate Recognition**  
-> Submission for the **ICPR 2026 Competition** — License Plate Character Super-Resolution & Recognition  
 > Course: **ARIN337629E — Artificial Intelligence**
 
 ---
